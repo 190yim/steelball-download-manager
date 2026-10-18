@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6c947">
+  <title>SteelBall Download Manager</title>
+  <link rel="icon" type="image/png" sizes="128x128" href="assets/icon128.png">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="SteelBall Download Manager home">
+        <span class="brand-stamp" aria-hidden="true"><img class="brand-mark" src="assets/steel-ball.svg" alt=""></span>
+        <span class="brand-copy"><strong>STEELBALL</strong><small>DOWNLOAD MANAGER</small></span>
+      </a>
+      <div class="top-actions">
+        <a class="creator-chip" href="https://github.com/190yim" target="_blank" rel="noopener noreferrer" title="Visit 190YIM on GitHub"><span data-icon="sparkle"></span> DEVELOPED BY <strong>190YIM</strong></a>
+        <div class="refresh-cluster">
+          <span class="refresh-status" id="refresh-status" role="status" aria-live="polite" aria-atomic="true" data-state="waiting">NOT UPDATED YET</span>
+          <button class="icon-button" id="refresh-button" type="button" title="Refresh downloads" aria-label="Refresh downloads"><span data-icon="refresh"></span></button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="race-strip" aria-label="SteelBall download activity">
+        <div class="race-strip-art"><img src="assets/steel-ball.svg" alt="Original colorful steel ball illustration"></div>
+        <div class="race-strip-copy"><p>STEEL BALL RUN · DOWNLOAD RECORD</p><h1>THE RACE IS ON</h1><span>Every download, on your trail.</span></div>
+        <div class="race-stamp" aria-hidden="true">190YIM<br><b>★</b><br>RUN CLUB</div>
+      </section>
+
+      <section class="dashboard-head">
+        <div><p class="section-kicker">YOUR DOWNLOAD STABLE</p><h2>Activity <span id="item-count">0</span></h2><p class="history-note" id="history-note">Loading download history…</p><p class="speed-summary">ACTIVE SPEED <strong id="total-speed">—</strong></p></div>
+        <div class="head-controls">
+          <label class="search-box"><span aria-hidden="true" data-icon="search"></span><input id="search-input" type="search" placeholder="Search files…" autocomplete="off"><kbd id="search-shortcut">⌘ K</kbd></label>
+          <label class="sort-label" for="sort-select">SORT</label>
+          <select id="sort-select" aria-label="Sort downloads"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="name">Name A–Z</option><option value="size">Largest first</option></select>
+        </div>
+      </section>
+
+      <nav class="filters" aria-label="Download filters">
+        <button class="filter active" data-filter="all">All <span id="count-all">0</span></button>
+        <button class="filter" data-filter="in_progress">In progress <span id="count-active">0</span></button>
+        <button class="filter" data-filter="complete">Completed <span id="count-complete">0</span></button>
+        <button class="filter" data-filter="interrupted">Interrupted <span id="count-interrupted">0</span></button>
+        <button class="open-downloads-folder" id="open-downloads-folder" type="button" title="Open Chrome's default Downloads folder. Use Show in folder on an item to open its specific location."><span data-icon="folder"></span><span>Open downloads folder</span></button>
+        <button class="clear-completed" id="clear-completed-button" type="button" title="Clear completed entries from Chrome history; downloaded files remain on your device"><span data-icon="trash"></span><span>Clear completed</span></button>
+      </nav>
+
+      <div class="filter-tools" aria-label="Additional download filters">
+        <label for="type-filter">TYPE <select id="type-filter" aria-label="Filter by file type"><option value="all">All types</option></select></label>
+        <label for="date-filter">DATE <select id="date-filter" aria-label="Filter by download date"><option value="all">Any time</option><option value="today">Today</option><option value="7days">Last 7 days</option><option value="30days">Last 30 days</option></select></label>
+      </div>
+      <div class="bulk-toolbar" id="bulk-toolbar">
+        <label class="select-visible"><input id="select-visible" type="checkbox"> Select visible</label>
+        <span id="selected-count">0 selected</span>
+        <button id="remove-selected-button" type="button" disabled>Remove selected</button>
+        <span class="bulk-note">Completed and interrupted entries only. Files stay on your device.</span>
+      </div>
+
+      <section id="download-list" class="download-list" aria-live="polite" aria-label="Downloads"></section>
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </main>
+    <footer><span>BUILT FOR THE LONG RIDE <b data-icon="sparkle"></b></span><span>OPEN SOURCE · MIT</span></footer>
+  </div>
+  <script src="icons.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 42" role="img" aria-labelledby="title">
+  <title id="title">Version 1.2.0 · Manifest V3 · MIT License</title>
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing=".4">
+    <rect x="1" y="1" width="179" height="40" rx="20" fill="#fff4ed" stroke="#d9876f"/><circle cx="21" cy="21" r="5" fill="#ef6947"/><text x="35" y="25" fill="#854233">VERSION</text><text x="112" y="25" fill="#182d3d">1.2.0</text>
+    <rect x="194" y="1" width="219" height="40" rx="20" fill="#eef6e8" stroke="#8fbd9c"/><circle cx="214" cy="21" r="5" fill="#4dbca7"/><text x="228" y="25" fill="#356547">CHROME</text><text x="294" y="25" fill="#182d3d">MANIFEST V3</text>
+    <rect x="427" y="1" width="192" height="40" rx="20" fill="#fff8dc" stroke="#dbbf65"/><circle cx="447" cy="21" r="5" fill="#d6a926"/><text x="461" y="25" fill="#79611f">LICENSE</text><text x="522" y="25" fill="#182d3d">MIT</text>
+  </g>
+</svg>

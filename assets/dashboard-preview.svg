@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 890" role="img" aria-labelledby="title desc">
+  <title id="title">SteelBall Download Manager dashboard preview</title>
+  <desc id="desc">A retro race-inspired dashboard with fictional sample downloads, filters, progress, and speed.</desc>
+  <defs>
+    <pattern id="paper-dots" width="15" height="15" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#263b48" opacity=".08"/></pattern>
+    <linearGradient id="race" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f6c947"/><stop offset=".22" stop-color="#ef6947"/><stop offset=".24" stop-color="#e789b3"/><stop offset=".63" stop-color="#e789b3"/><stop offset=".65" stop-color="#4dbca7"/><stop offset="1" stop-color="#4dbca7"/></linearGradient>
+    <radialGradient id="metal" cx="34%" cy="27%" r="77%"><stop stop-color="#fffdf4"/><stop offset=".28" stop-color="#dce3df"/><stop offset=".68" stop-color="#8e9aa0"/><stop offset="1" stop-color="#354957"/></radialGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e85b55"/><stop offset=".52" stop-color="#e8894c"/><stop offset="1" stop-color="#f4c548"/></linearGradient>
+    <clipPath id="ball-clip"><circle cx="90" cy="86" r="54"/></clipPath>
+    <g id="ball">
+      <ellipse cx="89" cy="91" rx="77" ry="35" transform="rotate(-31 89 91)" fill="none" stroke="#182d3d" stroke-width="3"/>
+      <ellipse cx="89" cy="91" rx="84" ry="43" transform="rotate(25 89 91)" fill="none" stroke="#d9769c" stroke-width="5" stroke-dasharray="22 9 5 8"/>
+      <circle cx="90" cy="86" r="59" fill="#182d3d"/><circle cx="90" cy="86" r="54" fill="url(#metal)" stroke="#fff8e9" stroke-width="2"/>
+      <g clip-path="url(#ball-clip)">
+        <path d="M23 45c38 8 66 25 115 74" fill="none" stroke="#263b48" stroke-width="18"/><path d="M25 37c39 8 67 25 114 73" fill="none" stroke="url(#ribbon)" stroke-width="8"/>
+        <path d="M18 57c39 8 67 25 114 73" fill="none" stroke="#54b9a6" stroke-width="5"/><path d="M36 110c21-24 44-33 78-39m-68 55c24-20 46-27 77-30" fill="none" stroke="#f8f3e7" stroke-opacity=".72" stroke-width="2"/>
+        <circle cx="90" cy="86" r="34" fill="none" stroke="#263b48" stroke-width="1.7" stroke-dasharray="3 4"/><path d="m90 62 6.5 16.5L114 86l-17.5 7.5L90 111l-6.5-17.5L66 86l17.5-7.5L90 62Z" fill="#f6c947" stroke="#182d3d" stroke-width="3" stroke-linejoin="round"/><circle cx="90" cy="86" r="6" fill="#fff8e9" stroke="#182d3d" stroke-width="2"/>
+      </g>
+      <path d="M56 43a45 45 0 0 1 28-12" fill="none" stroke="#fffdf4" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+    </g>
+    <g id="folder" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5h7l2 2H21v10H3z"/><path d="M3 10h18"/></g>
+    <g id="refresh" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M6.1 9a6.8 6.8 0 0 1 11.4-2L20 12M4 12l2.5 5a6.8 6.8 0 0 0 11.4-2"/></g>
+  </defs>
+  <rect x="7" y="10" width="1264" height="870" rx="20" fill="#182d3d"/>
+  <rect x="3" y="4" width="1264" height="870" rx="20" fill="#f7f3e9" stroke="#182d3d" stroke-width="2"/>
+  <rect x="3" y="4" width="1264" height="870" rx="20" fill="url(#paper-dots)"/>
+
+  <g font-family="Arial, sans-serif" fill="#182d3d">
+    <circle cx="52" cy="55" r="24" fill="#f6c947" stroke="#182d3d" stroke-width="2"/><g transform="translate(27 30) scale(.28)"><use href="#ball"/></g>
+    <text x="91" y="53" font-size="20" font-weight="900" letter-spacing="2">STEELBALL</text><text x="92" y="68" font-family="monospace" font-size="8" letter-spacing="2">DOWNLOAD MANAGER</text>
+    <rect x="900" y="39" width="242" height="31" rx="15" fill="#fffdf8" stroke="#e1dccd"/><path d="m919 48 2 6 6 2-6 2-2 6-2-6-6-2 6-2z" fill="#d67b36"/><text x="933" y="58" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1.1" fill="#a24b36">DEVELOPED BY</text><text x="1054" y="58" font-family="monospace" font-size="11" font-weight="800" letter-spacing="1">190YIM</text>
+    <rect x="1161" y="34" width="48" height="42" rx="21" fill="#fffdf8" stroke="#ded8c8" stroke-width="2"/><g transform="translate(1175 45) scale(.82)" color="#182d3d"><use href="#refresh"/></g>
+  </g>
+
+  <g transform="translate(34 94)">
+    <rect width="1202" height="151" rx="13" fill="url(#race)" stroke="#182d3d" stroke-width="2"/>
+    <rect width="1202" height="151" rx="13" fill="url(#paper-dots)" opacity=".75"/>
+    <circle cx="1115" cy="75" r="132" fill="none" stroke="#fff8e9" stroke-width="2" stroke-dasharray="8 8" opacity=".75"/><circle cx="1115" cy="75" r="112" fill="none" stroke="#fff8e9" stroke-width="10" opacity=".16"/>
+    <circle cx="94" cy="75" r="55" fill="#fff4cc" stroke="#182d3d" stroke-width="2"/><g transform="translate(49 31) scale(.5)"><use href="#ball"/></g>
+    <text x="169" y="48" font-family="monospace" font-size="11" font-weight="800" letter-spacing="2" fill="#fff9e8">STEEL BALL RUN · DOWNLOAD RECORD</text><text x="169" y="91" font-family="Arial Narrow, Arial, sans-serif" font-size="39" font-weight="900" letter-spacing="1" fill="#fffdf4" stroke="#182d3d" stroke-width=".7">THE RACE IS ON</text><text x="170" y="119" font-family="monospace" font-size="13" font-weight="700" fill="#253b46">Every download, on your trail.</text>
+    <circle cx="1110" cy="76" r="35" fill="#f6c947" stroke="#182d3d" stroke-width="2"/><text x="1110" y="62" text-anchor="middle" font-family="monospace" font-size="8" font-weight="800">190YIM</text><text x="1110" y="84" text-anchor="middle" font-size="21" fill="#ef6947">★</text><text x="1110" y="96" text-anchor="middle" font-family="monospace" font-size="7" font-weight="800">RUN CLUB</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" fill="#182d3d">
+    <text x="36" y="282" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1.6" fill="#8a7e67">YOUR DOWNLOAD STABLE</text><text x="36" y="316" font-size="30" font-weight="800">Activity</text><rect x="145" y="295" width="36" height="23" rx="12" fill="#e7dfce"/><text x="163" y="311" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#58656b">4</text>
+    <text x="36" y="337" font-size="10" fill="#78847e">Showing all 4 downloads in Chrome history.</text><text x="36" y="360" font-family="monospace" font-size="9" font-weight="700" letter-spacing="1" fill="#7a6b4a">ACTIVE SPEED</text><text x="118" y="360" font-family="monospace" font-size="12" font-weight="800" fill="#347b69">3.8 MB/s</text>
+    <rect x="748" y="292" width="238" height="39" rx="8" fill="#fffdf8" stroke="#ded8c8"/><circle cx="768" cy="311" r="6" fill="none" stroke="#74827e" stroke-width="2"/><path d="m773 316 5 5" stroke="#74827e" stroke-width="2"/><text x="788" y="315" font-size="11" fill="#a0a5a0">Search files…</text><rect x="997" y="292" width="211" height="39" rx="8" fill="#fffdf8" stroke="#ded8c8"/><text x="1012" y="315" font-family="monospace" font-size="9" fill="#88908c">SORT</text><text x="1051" y="315" font-size="11">Newest first⌄</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="11" font-weight="700">
+    <rect x="35" y="378" width="68" height="29" rx="15" fill="#182d3d"/><text x="51" y="397" fill="#fff">All</text><text x="78" y="397" font-family="monospace" font-size="9" fill="#f6c947">4</text>
+    <text x="123" y="397" fill="#637078">In progress</text><text x="198" y="397" font-family="monospace" font-size="9" fill="#84908f">1</text><text x="237" y="397" fill="#637078">Completed</text><text x="312" y="397" font-family="monospace" font-size="9" fill="#84908f">2</text><text x="354" y="397" fill="#637078">Interrupted</text><text x="433" y="397" font-family="monospace" font-size="9" fill="#84908f">1</text>
+    <rect x="727" y="378" width="205" height="29" rx="15" fill="#eef6e8" stroke="#bbcebd"/><g transform="translate(741 381) scale(.7)" color="#356547"><use href="#folder"/></g><text x="764" y="397" font-family="monospace" font-size="9" fill="#356547">Open downloads folder</text><rect x="1046" y="378" width="162" height="29" rx="15" fill="#fff4ed" stroke="#d8ad9b"/><text x="1065" y="397" font-family="monospace" font-size="9" fill="#a44936">✕  Clear completed</text>
+  </g>
+  <path d="M35 419H1208" stroke="#e1dccd"/>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="914" y="430" width="142" height="31" rx="8" fill="#fffdf8" stroke="#ded8c8"/><text x="927" y="450" font-family="monospace" font-size="8" font-weight="700" fill="#7a8580">TYPE</text><text x="966" y="450" font-size="10" fill="#354957">All types⌄</text><rect x="1066" y="430" width="142" height="31" rx="8" fill="#fffdf8" stroke="#ded8c8"/><text x="1079" y="450" font-family="monospace" font-size="8" font-weight="700" fill="#7a8580">DATE</text><text x="1114" y="450" font-size="10" fill="#354957">Any time⌄</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" fill="#182d3d">
+    <g transform="translate(35 472)"><rect width="1173" height="84" rx="12" fill="#fffdf8" stroke="#e1dccd"/><g transform="translate(4 3) scale(.43)"><use href="#ball"/></g><text x="67" y="34" font-size="13" font-weight="700">Creative-Pack-2026.zip</text><text x="67" y="53" font-family="monospace" font-size="9" fill="#899391">downloads.example.org</text><text x="695" y="35" font-family="monospace" font-size="9" fill="#677672">84.2 MB / 120 MB</text><text x="1005" y="35" font-family="monospace" font-size="9" font-weight="700" fill="#3d806f">3.8 MB/s</text><text x="1125" y="35" font-family="monospace" font-size="9" fill="#71807b">DOWNLOADING</text><rect x="695" y="45" width="280" height="5" rx="3" fill="#e8e6de"/><rect x="695" y="45" width="196" height="5" rx="3" fill="#54b9a6"/><text x="695" y="68" font-family="monospace" font-size="8" fill="#899391">70% · ETA 9s</text><text x="1150" y="60" font-size="18" fill="#51616a">Ⅱ</text><text x="1180" y="60" font-size="18" fill="#51616a">×</text></g>
+    <g transform="translate(35 568)"><rect width="1173" height="84" rx="12" fill="#fffdf8" stroke="#e1dccd"/><g transform="translate(4 3) scale(.43)"><use href="#ball"/></g><text x="67" y="34" font-size="13" font-weight="700">Field-Notes-Volume-04.pdf</text><text x="67" y="53" font-family="monospace" font-size="9" fill="#899391">files.example.net</text><text x="695" y="35" font-family="monospace" font-size="9" fill="#677672">8.6 MB / 8.6 MB</text><text x="1005" y="35" font-family="monospace" font-size="9" fill="#71807b">—</text><text x="1125" y="35" font-family="monospace" font-size="9" fill="#71807b">COMPLETED</text><rect x="695" y="45" width="280" height="5" rx="3" fill="#71a77c"/><text x="695" y="68" font-family="monospace" font-size="8" fill="#899391">100% · Saved just now</text><text x="1145" y="60" font-size="16" fill="#51616a">↗</text><text x="1180" y="60" font-size="15" fill="#bd4b39">×</text></g>
+    <g transform="translate(35 664)"><rect width="1173" height="84" rx="12" fill="#fffdf8" stroke="#e1dccd"/><g transform="translate(4 3) scale(.43)"><use href="#ball"/></g><text x="67" y="34" font-size="13" font-weight="700">Studio-Assets.tar.gz</text><text x="67" y="53" font-family="monospace" font-size="9" fill="#899391">cdn.example.com</text><text x="695" y="35" font-family="monospace" font-size="9" fill="#677672">1.2 GB / 1.2 GB</text><text x="1005" y="35" font-family="monospace" font-size="9" fill="#71807b">—</text><text x="1125" y="35" font-family="monospace" font-size="9" fill="#71807b">COMPLETED</text><rect x="695" y="45" width="280" height="5" rx="3" fill="#71a77c"/><text x="695" y="68" font-family="monospace" font-size="8" fill="#899391">100% · Saved yesterday</text><text x="1145" y="60" font-size="16" fill="#51616a">↗</text><text x="1180" y="60" font-size="15" fill="#bd4b39">×</text></g>
+    <g transform="translate(35 760)"><rect width="1173" height="68" rx="12" fill="#fffdf8" stroke="#e1dccd"/><g transform="translate(4 -4) scale(.43)"><use href="#ball"/></g><text x="67" y="30" font-size="13" font-weight="700">Archive-2026.part</text><text x="67" y="48" font-family="monospace" font-size="9" fill="#899391">storage.example.org</text><text x="695" y="29" font-family="monospace" font-size="9" fill="#677672">0 B / —</text><text x="1005" y="30" font-family="monospace" font-size="9" fill="#71807b">—</text><text x="1125" y="30" font-family="monospace" font-size="9" fill="#bd4b39">INTERRUPTED</text><text x="695" y="52" font-family="monospace" font-size="8" fill="#bd4b39">Connection lost</text><text x="1145" y="49" font-size="16" fill="#51616a">↻</text><text x="1180" y="49" font-size="15" fill="#bd4b39">×</text></g>
+  </g>
+  <text x="36" y="858" font-family="monospace" font-size="9" font-weight="700" letter-spacing="1" fill="#7d8984">BUILT FOR THE LONG RIDE · OPEN SOURCE · MIT</text><text x="1207" y="858" text-anchor="end" font-family="monospace" font-size="8" fill="#8a928c">PREVIEW DATA IS FICTIONAL</text>
+</svg>

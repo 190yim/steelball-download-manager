@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ef6947">
+  <title>SteelBall downloads</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="popup-shell">
+    <header class="popup-header">
+      <img src="assets/steel-ball.svg" alt="" class="popup-ball">
+      <div class="popup-brand"><span>STEELBALL</span><small>RUN BOARD</small></div>
+      <div class="popup-header-actions">
+        <button id="open-downloads-folder" class="popup-folder-button" type="button" title="Open Chrome's default Downloads folder" aria-label="Open Chrome's default Downloads folder"><span data-icon="folder"></span></button>
+        <button id="open-dashboard" class="open-dashboard" type="button" title="Open full download manager" aria-label="Open full download manager"><span data-icon="expand"></span></button>
+      </div>
+    </header>
+    <section class="summary" aria-label="Download summary">
+      <div><strong id="active-count">0</strong><span>ON THE TRAIL</span></div>
+      <div class="summary-divider"></div>
+      <div><strong id="complete-count">0</strong><span>FINISHED</span></div>
+      <button id="clear-completed" type="button" title="Remove completed entries from Chrome history. Files stay on your device."><span data-icon="trash"></span> CLEAR</button>
+      <div class="summary-speed"><span>COMBINED SPEED</span><strong id="total-speed">—</strong></div>
+    </section>
+    <section class="recent-section">
+      <div class="section-title"><span>RECENT DOWNLOADS</span><span class="sparkle" data-icon="sparkle"></span></div>
+      <div id="popup-list" class="popup-list" aria-live="polite"></div>
+    </section>
+    <footer class="popup-footer"><span>LOCAL DOWNLOAD HISTORY</span><span>DEVELOPED BY 190YIM · ★</span></footer>
+    <div id="popup-message" class="popup-message" role="status" aria-live="polite"></div>
+  </main>
+  <script src="icons.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
